@@ -32,20 +32,21 @@ pip install -r requirements.txt
 ├── requirements.txt
 
 ## 📸 Screenshots
+
 ### 1. App Homepage  
-<img src="assets/01_app_homepage.png" alt="App Homepage" width="800"/>
+[<img src="assets/01_app_homepage.png" alt="App Homepage" width="800"/>](assets/01_app_homepage.png)
 
 ---
 
 ### 2. Sample CSV Uploaded  
-<img src="assets/02_sample_csv_uploaded.png" alt="Sample CSV Uploaded" width="800"/>
+[<img src="assets/02_sample_csv_uploaded.png" alt="Sample CSV Uploaded" width="800"/>](assets/02_sample_csv_uploaded.png)
 
 ---
 
 ### 3. Prediction Results Displayed  
-<img src="assets/03_prediction_results.png" alt="Prediction Results" width="800"/>
+[<img src="assets/03_prediction_results.png" alt="Prediction Results" width="800"/>](assets/03_prediction_results.png)
 
 ---
 
 ### 4. Download Prediction CSV  
-<img src="assets/04_download_prediction_csv.png" alt="Download Prediction CSV" width="800"/>
+[<img src="assets/04_download_prediction_csv.png" alt="Download Prediction CSV" width="800"/>](assets/04_download_prediction_csv.png)
