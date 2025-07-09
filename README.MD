@@ -3,16 +3,12 @@
 This project aims to predict customer churn based on demographic and service usage data using machine learning models.
 
 ---
-
-## 🚀 Project Structure
-├── data/              <- Raw dataset (excluded via .gitignore)
-├── notebooks/         <- Jupyter notebooks for EDA and modeling
-├── outputs/           <- Saved models and reports (excluded via .gitignore)
-├── models/            <- Placeholder for serialized models
-├── README.md          <- Project documentation
-├── .gitignore         <- Ignore rules
-
----
+📁 Project Structure
+├── data/                        # Raw dataset (CSV)
+├── notebooks/                  # Jupyter notebooks (EDA + modeling)
+├── outputs/                    # Saved model (.pkl), reports
+├── README.md                   # Project overview and instructions
+└── .gitignore                  # Exclude unnecessary files
 
 ## 🔍 Problem Statement
 
