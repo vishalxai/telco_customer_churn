@@ -60,3 +60,23 @@ pip freeze > requirements.txt
 git init
 git add .
 git commit -m "Initial commit - Telco Churn Prediction"
+
+## 🔥 Key Learnings
+
+- Built multiple classification models from scratch
+- Performed hyperparameter tuning and threshold optimization
+- Exported trained model using `joblib`
+- Cleaned and preprocessed real-world Telco data
+- Visualized feature importance for business insights
+
+## 📌 Future Scope
+
+- Deploy with Streamlit
+- Add AUC-ROC visualizations
+- Build API with Flask
+- Automate ML pipeline with `mlflow`
+
+## 👤 About Me
+I’m Vishal, a data-driven ML engineer focused on building scalable AI solutions with real-world business impact. I specialize in EDA, model building, and deployment, using tools like Python, Scikit-learn, XGBoost, and Streamlit.
+
+Every project I build is designed to sharpen execution, deliver insights, and move me closer to elite-level engineering.
