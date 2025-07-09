@@ -1,0 +1,15 @@
+# Core Libraries
+pandas
+numpy
+scikit-learn
+joblib
+
+# Visualization (optional but useful)
+matplotlib
+seaborn
+
+# Streamlit for web app
+streamlit
+
+# For file handling if used
+openpyxl
