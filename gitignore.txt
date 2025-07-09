@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data files
+/data/*.csv
+
+# Model binaries
+/outputs/*.pkl
+
+# Logs and reports
+*.log
+*.txt
+
+# Environment
+.env
+.venv
+*.env
+*.venv
+
+# OS-specific
+.DS_Store
