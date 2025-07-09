@@ -13,7 +13,7 @@ def main():
     st.markdown("Upload your customer data to get churn predictions using a trained ML model.")
 
     # Sample CSV download
-    with open("sample_input.csv", "rb") as file:
+    with open(os.path.join(os.path.dirname(__file__), "sample_input.csv"), "rb") as file:
         st.download_button("📁 Download Sample Input CSV", file, file_name="sample_input.csv", mime="text/csv")
 
     uploaded_file = st.file_uploader("📤 Upload your customer CSV file", type=["csv"])
