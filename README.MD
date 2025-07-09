@@ -1,82 +1,32 @@
-# Telco Customer Churn Prediction
+# Telco Customer Churn Prediction 🔥
 
-This project aims to predict customer churn based on demographic and service usage data using machine learning models.
+An end-to-end machine learning project that predicts customer churn for a telecom company, complete with a deployed Streamlit web app.
 
----
-📁 Project Structure
-├── data/                        # Raw dataset (CSV)
-├── notebooks/                  # Jupyter notebooks (EDA + modeling)
-├── outputs/                    # Saved model (.pkl), reports
-├── README.md                   # Project overview and instructions
-└── .gitignore                  # Exclude unnecessary files
+## 🚀 Features
+- Data Preprocessing with `ColumnTransformer`
+- Trained RandomForestClassifier Pipeline
+- Model exported via `joblib`
+- Streamlit web app with CSV upload/download
+- Clean UI + prediction results with export
 
-## 🔍 Problem Statement
+## 🛠️ Tech Stack
+- Python, pandas, scikit-learn
+- Streamlit
+- Jupyter Notebook
+- Git, GitHub
 
-Predict whether a customer will **churn or not** based on their service behavior and demographics using ML models (Logistic Regression, Random Forest, XGBoost).
+## 📸 Screenshots
+_Add UI screenshots from the browser here_
 
----
-
-## 📦 Models Used
-
-- Logistic Regression
-- Random Forest
-- XGBoost
-
----
-
-## 📊 Performance Snapshot
-
-| Model            | Accuracy | Precision | Recall | F1-score |
-|------------------|----------|-----------|--------|----------|
-| LogisticRegression | 0.79     | 0.84/0.63 | 0.89/0.54 | 0.86/0.58 |
-| RandomForest       | 0.80     | 0.82/0.68 | 0.92/0.46 | 0.87/0.55 |
-| XGBoost            | 0.79     | 0.84/0.61 | 0.88/0.54 | 0.86/0.57 |
-
----
-
-## 🛠️ How to Run
-
+## 🧪 Run Locally
 ```bash
-# 1. Clone the repo
-git clone https://github.com/yourusername/telco-customer-churn.git
-cd telco-customer-churn
+cd streamlit_app
+streamlit run app.py
 
-# 2. Install dependencies
 pip install -r requirements.txt
-
-# 3. Run the notebook
-jupyter notebook notebooks/01_data_loading_and_eda.ipynb
-
----
-
-### ✅ 3. `requirements.txt` (optional but ideal)
-
-Create it **in the root** using this command:
-
-```bash
-pip freeze > requirements.txt
-
-
-git init
-git add .
-git commit -m "Initial commit - Telco Churn Prediction"
-
-## 🔥 Key Learnings
-
-- Built multiple classification models from scratch
-- Performed hyperparameter tuning and threshold optimization
-- Exported trained model using `joblib`
-- Cleaned and preprocessed real-world Telco data
-- Visualized feature importance for business insights
-
-## 📌 Future Scope
-
-- Deploy with Streamlit
-- Add AUC-ROC visualizations
-- Build API with Flask
-- Automate ML pipeline with `mlflow`
-
-## 👤 About Me
-I’m Vishal, a data-driven ML engineer focused on building scalable AI solutions with real-world business impact. I specialize in EDA, model building, and deployment, using tools like Python, Scikit-learn, XGBoost, and Streamlit.
-
-Every project I build is designed to sharpen execution, deliver insights, and move me closer to elite-level engineering.
+├── notebooks/
+├── outputs/
+├── streamlit_app/
+├── data/
+├── README.md
+├── requirements.txt
